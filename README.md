@@ -1,3 +1,17 @@
+ 
+[![Latest Stable Version](https://img.shields.io/github/release/mrcnpdlk/psr16cache-adapter.svg)](https://packagist.org/packages/mrcnpdlk/psr16cache-adapter)
+[![Latest Unstable Version](https://poser.pugx.org/mrcnpdlk/psr16cache-adapter/v/unstable.png)](https://packagist.org/packages/mrcnpdlk/psr16cache-adapter)
+[![Total Downloads](https://img.shields.io/packagist/dt/mrcnpdlk/psr16cache-adapter.svg)](https://packagist.org/packages/mrcnpdlk/psr16cache-adapter)
+[![Monthly Downloads](https://img.shields.io/packagist/dm/mrcnpdlk/psr16cache-adapter.svg)](https://packagist.org/packages/mrcnpdlk/psr16cache-adapter)
+[![License](https://img.shields.io/packagist/l/mrcnpdlk/psr16cache-adapter.svg)](https://packagist.org/packages/mrcnpdlk/psr16cache-adapter) 
+ 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mrcnpdlk/psr16cache-adapter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mrcnpdlk/psr16cache-adapter/?branch=master) 
+[![Build Status](https://scrutinizer-ci.com/g/mrcnpdlk/psr16cache-adapter/badges/build.png?b=master)](https://scrutinizer-ci.com/g/mrcnpdlk/psr16cache-adapter/build-status/master)
+[![Code Coverage](https://scrutinizer-ci.com/g/mrcnpdlk/psr16cache-adapter/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/mrcnpdlk/psr16cache-adapter/?branch=master)
+
+[![Code Climate](https://codeclimate.com/github/mrcnpdlk/psr16cache-adapter/badges/gpa.svg)](https://codeclimate.com/github/mrcnpdlk/psr16cache-adapter) 
+[![Issue Count](https://codeclimate.com/github/mrcnpdlk/psr16cache-adapter/badges/issue_count.svg)](https://codeclimate.com/github/mrcnpdlk/psr16cache-adapter)
+ 
  # PSR-16 Cache Adapter
  
  ## Instalation
