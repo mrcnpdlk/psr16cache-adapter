@@ -29,5 +29,38 @@ class AdapterTest extends TestCase
         $this->oAdapter = new Adapter();
     }
 
+    public function testSetCacheInstance()
+    {
+        $oInstanceLogger = new \Monolog\Logger('name_of_my_logger');
+        $oInstanceLogger->pushHandler(new \Monolog\Handler\ErrorLogHandler(
+                \Monolog\Handler\ErrorLogHandler::OPERATING_SYSTEM,
+                \Psr\Log\LogLevel::DEBUG
+            )
+        );
+        $oInstanceCacheFile = new \phpFastCache\Helper\Psr16Adapter(
+            'files',
+            [
+                "host"                => null, // default localhost
+                "port"                => null, // default 6379
+                'defaultTtl'          => 3600 * 24, // 24h
+                'ignoreSymfonyNotice' => true,
+            ]);
+        $this->oAdapter->setLoggerInstance($oInstanceLogger);
+        $this->oAdapter->setCacheInstance($oInstanceCacheFile);
+        $this->assertInstanceOf(\Psr\SimpleCache\CacheInterface::class, $this->oAdapter->getCache());
+    }
+
+    public function testUsingCache()
+    {
+        $res = $this->oAdapter->useCache(
+            function () {
+                return 1;
+            },
+            ['key1', 'key2'],
+            10
+        );
+        $this->assertEquals(1, $res);
+    }
+
 
 }
