@@ -2,7 +2,7 @@
 /**
  * PSR16 Cache Adapter
  *
- * Copyright (c) 2017 pudelek.org.pl
+ * Copyright (c) 2017 http://pudelek.org.pl
  *
  * @license MIT License (MIT)
  *
@@ -12,11 +12,6 @@
  * @author Marcin Pudełek <marcin@pudelek.org.pl>
  */
 
-/**
- * Created by Marcin.
- * Date: 16.10.2017
- * Time: 19:18
- */
 
 namespace mrcnpdlk\Psr16Cache;
 
