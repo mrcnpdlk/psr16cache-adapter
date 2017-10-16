@@ -1,0 +1,31 @@
+{
+    "name": "mrcnpdlk/psr16cache-adapter",
+    "description": "Cache adapter for PSR-16",
+    "keywords": [
+        "psr16",
+        "cache"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcin Pudełek",
+            "email": "marcin@pudelek.org.pl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "psr/simple-cache": "^1.0",
+        "psr/log": "1.0"
+    },
+    "require-dev": {
+        "monolog/monolog": "^1.23",
+        "phpfastcache/phpfastcache": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mrcnpdlk\\Psr16Cache\\": "src/"
+        }
+    }
+}
